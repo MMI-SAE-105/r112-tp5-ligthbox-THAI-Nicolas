@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : THAI
+- prénom : Nicolas
+- URL Netlify : https://vermillion-otter-5dd447.netlify.app/
 
 # Travail
 

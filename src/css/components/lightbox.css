@@ -1,3 +1,17 @@
 /**
 * Lightbox
 */
+dialog {
+    border: solid 1 px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+dialog img {
+    max-width: 100%;
+    max-height: 100%;
+}
