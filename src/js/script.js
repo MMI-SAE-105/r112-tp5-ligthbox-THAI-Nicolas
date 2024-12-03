@@ -10,6 +10,9 @@ document.body.addEventListener("click", (evt) => {
         lightbox.showModal();
     }
     closeBtn.addEventListener("click", () => lightbox.close());
+    if (evt.target === lightbox) {
+        lightbox.close();
+    }
 }
 
 
