@@ -25,9 +25,21 @@ dialog img {
 }
 
 dialog::backdrop {
-    background-color: rgb(177, 132, 35);
-    opacity: 0.5;
+    background-color: rgb(89, 66, 18);
+    opacity: 0.6;
+    animation: backgroundColor 5s;
+}
 
+@keyframes backgroundColor {
+    from {
+        background-color: rgb(217, 175, 85);
+        opacity: 0.3;
+    }
+
+    to {
+        background-color: rgb(89, 66, 18);
+        opacity: 0.6;
+    }
 }
 
 img {
