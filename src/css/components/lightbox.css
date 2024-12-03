@@ -30,21 +30,6 @@ dialog::backdrop {
 
 }
 
-.close-btn {
-    width: 30px;
-    position: absolute;
-    top: 15px;
-    right: 30px;
-    cursor: pointer;
-    transition: width 0.15s;
-
-}
-
-button {
-    border: none;
-    background-color: white;
-}
-
 img {
     cursor: pointer;
 }
@@ -54,16 +39,25 @@ img {
     animation-name: entre;
 }
 
-@keyframes entre {
-    from {
+#lightbox.sortie {
+    animation-name: sortie;
+    animation-duration: 0.5s;
+}
+
+#lightbox.hidden {
+    display: none;
+}
+
+@keyframes sortie {
+    to {
         opacity: 0;
         transform: scale(0);
     }
 }
 
-@keyframes sortie {
-    to {
+@keyframes entre {
+    from {
+        opacity: 0;
         transform: scale(0);
     }
-
 }
